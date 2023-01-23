@@ -5,8 +5,8 @@ import GraphComponent from './components/GraphComponent.vue'
 <template>
   <div id="app">
     <div class="header">
-      <img alt="yFiles logo" src="./assets/yfiles-logo.svg" />
-      <h1>A Basic yFiles Integration in Vue.js</h1>
+      <!-- <img alt="yFiles logo" src="./assets/yfiles-logo.svg" /> -->
+      <h1></h1>
     </div>
     <graph-component></graph-component>
   </div>

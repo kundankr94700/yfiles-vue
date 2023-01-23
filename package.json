@@ -1,5 +1,5 @@
 {
-  "name": "yfiles-vue-integration-basic",
+  "name": "yfiles-testing",
   "version": "1.0.0",
   "author": "yWorks GmbH <yfileshtml@yworks.com>",
   "private": true,
@@ -14,6 +14,9 @@
     "copy-eval-license": "node -e \"require('fs').copyFileSync('../yFiles-for-HTML-Complete-2.5.0.2-Evaluation/lib/license.json','./src/license.json')\""
   },
   "dependencies": {
+    "@capacitor/android": "^4.6.2",
+    "@capacitor/cli": "^4.6.2",
+    "@capacitor/core": "^4.6.2",
     "vue": "^3.2.37",
     "yfiles": "../yFiles-for-HTML-Complete-2.5.0.2-Evaluation/lib-dev/yfiles-25.0.2+eval-dev.tgz"
   },
